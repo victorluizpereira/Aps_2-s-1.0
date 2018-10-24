@@ -1,0 +1,4 @@
+/home/victor-lp/Projects/Aps/Aps/bin/Release/Aps.exe
+/home/victor-lp/Projects/Aps/Aps/obj/x86/Release/Aps.csproj.CoreCompileInputs.cache
+/home/victor-lp/Projects/Aps/Aps/obj/x86/Release/Aps.exe
+/home/victor-lp/Projects/Aps/Aps/obj/x86/Release/Aps.csprojResolveAssemblyReference.cache

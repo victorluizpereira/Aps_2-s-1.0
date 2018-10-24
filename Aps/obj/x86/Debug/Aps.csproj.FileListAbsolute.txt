@@ -1,0 +1,6 @@
+/home/victor-lp/Projects/Aps/Aps/bin/Debug/Aps.exe
+/home/victor-lp/Projects/Aps/Aps/bin/Debug/Aps.pdb
+/home/victor-lp/Projects/Aps/Aps/obj/x86/Debug/Aps.csprojResolveAssemblyReference.cache
+/home/victor-lp/Projects/Aps/Aps/obj/x86/Debug/Aps.csproj.CoreCompileInputs.cache
+/home/victor-lp/Projects/Aps/Aps/obj/x86/Debug/Aps.exe
+/home/victor-lp/Projects/Aps/Aps/obj/x86/Debug/Aps.pdb

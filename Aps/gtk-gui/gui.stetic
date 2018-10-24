@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Release/Aps.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="503 467">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Mensagem</property>
+    <property name="Icon">stock:stock_mail-reply Menu</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.ToggleButton" id="togglebutton1">
+            <property name="MemberName" />
+            <property name="WidthRequest">100</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextAndIcon</property>
+            <property name="Icon">stock:stock_lock Menu</property>
+            <property name="Label" translatable="yes">cifrar</property>
+            <property name="UseUnderline">True</property>
+            <property name="Inconsistent">True</property>
+            <signal name="Clicked" handler="OnTogglebutton1Clicked" />
+          </widget>
+          <packing>
+            <property name="X">327</property>
+            <property name="Y">169</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="image3">
+            <property name="MemberName" />
+            <property name="Pixbuf">file:./pessoa.png</property>
+          </widget>
+          <packing>
+            <property name="X">311</property>
+            <property name="Y">28</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="image4">
+            <property name="MemberName" />
+            <property name="Pixbuf">file:./pessoa.png</property>
+          </widget>
+          <packing>
+            <property name="X">314</property>
+            <property name="Y">283</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ToggleButton" id="togglebutton2">
+            <property name="MemberName" />
+            <property name="WidthRequest">100</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextAndIcon</property>
+            <property name="Icon">stock:stock_keyring Menu</property>
+            <property name="Label" translatable="yes">Decifrar</property>
+            <property name="UseUnderline">True</property>
+            <property name="Inconsistent">True</property>
+            <signal name="Clicked" handler="OnTogglebutton2Clicked" />
+          </widget>
+          <packing>
+            <property name="X">326</property>
+            <property name="Y">420</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Image" id="image5">
+            <property name="MemberName" />
+            <property name="Pixbuf">file:./seta.png</property>
+          </widget>
+          <packing>
+            <property name="X">335</property>
+            <property name="Y">198</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Enviando mensagem ao usuário secundário 
+de forma segura</property>
+          </widget>
+          <packing>
+            <property name="X">20</property>
+            <property name="Y">9</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label2">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Texto Criptografado :</property>
+          </widget>
+          <packing>
+            <property name="X">16</property>
+            <property name="Y">172</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label3">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Conversão de texto cifrado para decifrado :</property>
+          </widget>
+          <packing>
+            <property name="X">17</property>
+            <property name="Y">303</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
+            <property name="MemberName" />
+            <property name="VscrollbarPolicy">Always</property>
+            <property name="HscrollbarPolicy">Never</property>
+            <child>
+              <widget class="Gtk.TextView" id="textview1">
+                <property name="MemberName" />
+                <property name="WidthRequest">260</property>
+                <property name="HeightRequest">110</property>
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="Text" translatable="yes" />
+                <property name="WrapMode">Char</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">16</property>
+            <property name="Y">59</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow1">
+            <property name="MemberName" />
+            <property name="VscrollbarPolicy">Always</property>
+            <property name="HscrollbarPolicy">Never</property>
+            <child>
+              <widget class="Gtk.TextView" id="textview2">
+                <property name="MemberName" />
+                <property name="WidthRequest">260</property>
+                <property name="HeightRequest">110</property>
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="Text" translatable="yes" />
+                <property name="WrapMode">Char</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">15</property>
+            <property name="Y">189</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow2">
+            <property name="MemberName" />
+            <property name="VscrollbarPolicy">Always</property>
+            <property name="HscrollbarPolicy">Never</property>
+            <child>
+              <widget class="Gtk.TextView" id="textview3">
+                <property name="MemberName" />
+                <property name="WidthRequest">260</property>
+                <property name="HeightRequest">110</property>
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="Text" translatable="yes" />
+                <property name="WrapMode">Char</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">16</property>
+            <property name="Y">324</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
